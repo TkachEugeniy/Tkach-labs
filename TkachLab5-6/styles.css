@@ -1,0 +1,65 @@
+ .first:hover {
+            background-color: #bdef57;
+            transform: scale(0.95, 0.95);
+            transition-property: background;
+            transition-duration: 0.03s;
+            box-shadow: 2px 2px 5px;
+            color: transparent;
+        }
+
+        .first:hover::after {
+            content: "без опадів";
+            color: black;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .first {
+            text-align: center;
+        }
+
+        .rain:hover {
+            background-color: #20B2AA;
+            transform: scale(0.95, 0.95);
+            transition-property: background;
+            transition-duration: 0.03s;
+            box-shadow: 2px 2px 5px;
+            color: transparent;
+        }
+
+        .rain:hover::after {
+            content: "дощ";
+            color: black;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .rain {
+            text-align: center;
+        }
+
+        .snow:hover {
+            background-color: #37c294;
+            transform: scale(0.95, 0.95);
+            transition-property: background;
+            transition-duration: 0.03s;
+            box-shadow: 2px 2px 5px;
+            color: transparent;
+        }
+
+        .snow:hover::after {
+            content: "сніг";
+            color: black;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .snow {
+            text-align: center;
+        }
