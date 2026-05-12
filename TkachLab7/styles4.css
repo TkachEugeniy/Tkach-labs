@@ -1,0 +1,47 @@
+body {
+    font-size: 20px;
+    background: linear-gradient(135deg, #0e88a0, #e76ddb);
+
+}
+
+ol {
+    border-radius: 10px;
+    background-color: rgb(221, 157, 157);
+    padding: 30px;
+    width: 1000px;
+    margin: 20px auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    border-radius: 10px;
+    background-color: rgb(221, 157, 157);
+    padding: 30px;
+    width: 1000px;
+    margin: 20px auto;
+    margin-top: 50px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+li {
+    margin-top: 10px;
+}
+
+ul li {
+
+    list-style-type: square;
+}
+
+ol:hover {
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+
+ul:hover {
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+
+li:hover {
+    color: #06262c
+}

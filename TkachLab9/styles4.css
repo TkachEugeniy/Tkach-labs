@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff9bfc, #f5d4b8);
+    text-align: center;
+}
+
+h2 {
+    margin-top: 30px;
+    font-size: 28px;
+}
+
+.container {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+img {
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}

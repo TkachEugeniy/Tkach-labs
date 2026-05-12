@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TkachLab09-2</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #4edede, #1c41e2);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 40px 0;
+        }
+
+        h1 {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            margin-bottom: 50px;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        img {
+            height: 600px;
+            width: 1000px;
+            display: block;
+            margin: auto;
+        }
+
+        .links {
+            height: 400px;
+            width: 500px;
+        }
+
+        .town {
+            height: 700px;
+            width: 800px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Навігація</h1>
+    <img class="home" src="./images/home.png" usemap="#home" />
+    <map name="home">
+        <area shape="poly" coords="263,417,498,116,741,417" href="TkachLab02.html" title="homepage" target="_blank">
+    </map>
+    <img class="links" src="./images/links.png" usemap="#links" />
+    <map name="links">
+        <area shape="circle" coords="329,244,300" title="links" href="TkachLab8.html" target="_blank">
+    </map>
+    <img class="town" src="./images/town.png" usemap="#town" />
+    <map name="town">
+        <area shape="rect" coords="80,180,730,480" title="town" href="TkachLab09-1.html" target="_blank">
+    </map>
+</body>

@@ -1,0 +1,65 @@
+  body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #8aaad0, #9144ee);
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+  }
+
+  h1 {
+      margin-bottom: 30px;
+  }
+
+  h2 {
+      margin-top: 50px;
+      text-align: center;
+  }
+
+  .group {
+      width: 800px;
+      height: 600px;
+      border-radius: 40px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+
+  }
+
+  .group:hover {
+      transform: scale(1.02);
+      transition: 0.5s;
+  }
+
+  .photo {
+      width: 550px;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  }
+
+  .photo:hover {
+      transform: scale(1.02);
+      transition: 0.5s;
+  }
+
+  .card {
+      background: white;
+      width: 1000px;
+      margin: 30px auto;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .text-placeholder {
+      margin-top: 15px;
+      padding: 15px;
+      background: #f5f7fb;
+      border-radius: 10px;
+      color: #555;
+  }
+
+  .content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+  }
