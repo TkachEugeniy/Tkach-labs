@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .register-box {
+            background-color: white;
+            width: 100%;
+            max-width: 450px;
+            padding: 40px 30px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            border: 1px solid #e0e0e0;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        label {
+            display: block;
+            margin: 18px 0 6px;
+            font-weight: bold;
+            color: #34495e;
+        }
+        input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #bdc3c7;
+            border-radius: 6px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+        input:focus {
+            border-color: #3498db;
+            outline: none;
+        }
+        button {
+            width: 100%;
+            padding: 14px;
+            margin-top: 25px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 17px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="register-box">
+        <h1>Реєстрація</h1>
+        
+        <form>
+            <label for="username">Ім'я користувача:</label>
+            <input type="text" id="username" placeholder="Введіть логін" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="example@gmail.com" required>
+
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" placeholder="••••••••" required>
+
+            <label for="confirm">Підтвердження пароля:</label>
+            <input type="password" id="confirm" placeholder="••••••••" required>
+
+            <label for="fullname">Прізвище, ім'я, по-батькові:</label>
+            <input type="text" id="fullname" placeholder="Введіть ПІБ" required>
+
+            <button type="submit">Зареєструватися</button>
+        </form>
+    </div>
+</body>
+</html>
