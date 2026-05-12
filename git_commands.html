@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Команди Git</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            color: #e0e0ff;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: rgba(255,255,255,0.08);
+            padding: 40px;
+            border-radius: 16px;
+        }
+        h1 { text-align: center; color: #74b9ff; }
+        h2 { color: #a29bfe; border-bottom: 2px solid #4a90e2; }
+        pre {
+            background: #1e1e2f;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Основні команди Git</h1>
+        
+        <h2>1. Ініціалізація та статус</h2>
+        <pre><code>git init
+git status
+git add .
+git commit -m "Повідомлення"</code></pre>
+
+        <h2>2. Робота з гілками</h2>
+        <pre><code>git branch
+git checkout -b назва_гілки
+git checkout develop
+git merge task_1.12</code></pre>
+
+        <h2>3. Робота з GitHub</h2>
+        <pre><code>git remote add origin URL
+git push -u origin develop
+git pull</code></pre>
+
+        <h2>4. Інші корисні команди</h2>
+        <pre><code>git log --oneline
+git clone URL
+git reset
+git stash</code></pre>
+    </div>
+</body>
+</html>
